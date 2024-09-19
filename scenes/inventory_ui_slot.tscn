@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkf5q65bb82mr"]
+
+[ext_resource type="Script" path="res://scenes/inventory_ui_slot.gd" id="1_nj6xg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kaixh"]
+
+[node name="InventoryUISlot" type="Panel"]
+custom_minimum_size = Vector2(16, 16)
+offset_right = 16.0
+offset_bottom = 16.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_kaixh")
+script = ExtResource("1_nj6xg")
+
+[node name="ItemBackground" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 16.0
+offset_bottom = 16.0
+color = Color(0, 0, 0, 0.537255)
+
+[node name="ItemDisplay" type="Sprite2D" parent="."]
+centered = false
+offset = Vector2(2.08165e-12, 2.08165e-12)
+
+[node name="ItemAmount" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 5.0
+offset_right = 15.0
+offset_bottom = 17.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 8
+text = "99"
+horizontal_alignment = 2

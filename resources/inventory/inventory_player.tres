@@ -1,0 +1,44 @@
+[gd_resource type="Resource" script_class="Inventory" load_steps=9 format=3 uid="uid://drm55sraatx1e"]
+
+[ext_resource type="Script" path="res://resources/inventory/inventory_slot.gd" id="2_m6amu"]
+[ext_resource type="Script" path="res://resources/inventory/inventory.gd" id="2_uo540"]
+
+[sub_resource type="Resource" id="Resource_k6c86"]
+script = ExtResource("2_m6amu")
+amount = 0
+is_selected = false
+is_active = false
+
+[sub_resource type="Resource" id="Resource_oova2"]
+script = ExtResource("2_m6amu")
+amount = 0
+is_selected = false
+is_active = false
+
+[sub_resource type="Resource" id="Resource_0qqk2"]
+script = ExtResource("2_m6amu")
+amount = 0
+is_selected = false
+is_active = false
+
+[sub_resource type="Resource" id="Resource_p0qul"]
+script = ExtResource("2_m6amu")
+amount = 0
+is_selected = false
+is_active = false
+
+[sub_resource type="Resource" id="Resource_qo6ss"]
+script = ExtResource("2_m6amu")
+amount = 0
+is_selected = false
+is_active = false
+
+[sub_resource type="Resource" id="Resource_rm3gx"]
+script = ExtResource("2_m6amu")
+amount = 0
+is_selected = false
+is_active = false
+
+[resource]
+script = ExtResource("2_uo540")
+slots = Array[ExtResource("2_m6amu")]([SubResource("Resource_k6c86"), SubResource("Resource_oova2"), SubResource("Resource_0qqk2"), SubResource("Resource_p0qul"), SubResource("Resource_qo6ss"), SubResource("Resource_rm3gx")])

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=4 format=3 uid="uid://by2ttoc2vrab8"]
+
+[ext_resource type="Script" path="res://resources/inventory/inventory_item.gd" id="1_658o8"]
+[ext_resource type="Texture2D" uid="uid://oy1ai5sji743" path="res://assets/tile_types.png" id="2_7ddkq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_moy4k"]
+atlas = ExtResource("2_7ddkq")
+region = Rect2(144, 208, 16, 16)
+
+[resource]
+script = ExtResource("1_658o8")
+name = "mushrooms_blue"
+texture = SubResource("AtlasTexture_moy4k")
+amount = 2
+duration = 3.0
+heal_amount = 100
